@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+	/* background-image: url("../images/offer.png"); */
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.logo img{
+    width: 90px;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	z-index: 1;
+    background-color: transparent;
+    transition: 0.6s ease-in-out;
+}
+nav.active{
+	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
+	background-color: #000000;
+}
+nav ul{
+	display: flex;
+}
+.active{
+    background-color: #FF1414;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	transition: all ease 0.2s;
+}
+.active:hover{
+    background-color: #000000;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	transition: all ease 0.2s;
+}
+nav ul li a{
+    font-family: 'Lato';
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#ffffff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+}
+nav ul li a:hover{
+	background-color: #FF1414;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+	transition: all ease 0.2s;
+}
+nav .menu-btn,
+.menu-icon{
+		display:none;
+}
+
+nav .btn{
+    font-family: 'Lato';
+	margin: 3px;
+	padding: 0px 22px;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	font-size: 0.9rem;
+    background-color: #FF1414;
+    border: 2px solid #FF1414;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+	letter-spacing: 1px;
+    border-radius: 3px;
+	color:#ffffff;
+}
+nav .btn:hover{
+	background-color: transparent;
+    transition: all ease 0.2s;
+    color: #ffffff;
+    border: 2px solid #FF1414;
+}

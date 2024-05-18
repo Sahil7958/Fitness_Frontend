@@ -1,0 +1,195 @@
+.homebanner1 {
+  padding: 100px 100px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homebanner1 .box {
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border: 2px solid white;
+  /* box-shadow: 0px 0px 10px 2px white; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+}
+.form input {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 20px;
+  color: red;
+}
+.form input[type="file"]::file-selector-button {
+  /* height: 20px; */
+  background-color: transparent;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+
+.form input[type="file"]::file-selector-button:hover {
+  border: 2px solid #ff1414;
+  border-radius: 3px;
+  background-color: transparent;
+  transition: all ease 1s;
+}
+
+.form .btn1 {
+  font-family: "Lato";
+  width: 200px;
+  margin: 3px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  background-color: #ff1414;
+  border: 2px solid #ff1414;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.form .btn1:hover {
+  background-color: transparent;
+  transition: all ease 1s;
+  color: #ffffff;
+  border: 2px solid #ff1414;
+}
+.form .errorMessage {
+  padding: 4px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(218, 103, 103);
+  color: white;
+}
+.homebanner1 h3 {
+  display: flex;
+  font-size: 30px;
+  font-family: monospace;
+  justify-content: center;
+}
+.meters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.meters .card {
+  width: 200px;
+  height: 210px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.meters .card:nth-child(1) {
+  background: linear-gradient(90deg, #ffe58d 0%, #ffb784 100%);
+}
+
+.meters .card:nth-child(2) {
+  background: linear-gradient(90deg, #b1ff7d 0%, #7effc7 100%);
+}
+.meters .card:nth-child(3) {
+  background: linear-gradient(90deg, #80fff4 0%, #7ed6ff 100%);
+}
+.meters .card:nth-child(4) {
+  background: linear-gradient(90deg, #ff7efb 0%, #ff7dd6 100%);
+}
+.meters .card:nth-child(5) {
+  background: linear-gradient(90deg, #ff8080 0%, #ffb47e 100%);
+}
+.meters .card:nth-child(6) {
+  background: linear-gradient(90deg, #ffff7c 0%, #ffb47e 100%);
+}
+
+.meters .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.meters .card-header-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 47%;
+  background-color: rgba(0, 0, 0, 0.3);
+  aspect-ratio: 1/1;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.meters .card-header-box-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.meters .card-header-box-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+}
+.meters .card button {
+  background-color: #ffffff;
+  color: rgb(33, 33, 33);
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.meters .card button:hover {
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+.meters .textincircle {
+  color: #333;
+  font-weight: bold;
+}
+.trainer{
+  margin-top: 50px;
+}
+.trainer h3{
+  color: white;
+}
+
+.trainer img{
+  padding: 5px;
+  margin-bottom: -25px;
+  border-bottom: 3px solid var(--col1);
+  border-radius:50% ;
+}
+.trainer-box{
+  padding: 30px;
+  background-color: black;
+  /* background: linear-gradient(90deg, #80fff4 0%, #7ed6ff 100%); */
+  border-radius: 10px;
+  color: white;
+}

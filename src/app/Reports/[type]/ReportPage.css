@@ -1,0 +1,45 @@
+.reportpage{
+    /* background-color: white; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.s1{
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    border-color: black;
+    background-color: white;
+    backdrop-filter: blur(50px);
+    color: white;
+    /* background: white; */
+    font-size: 20px;
+}
+
+.reportpage .editbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--col1);
+    color: white;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.75);
+}
+
+.reportpage .editbutton:hover{
+    background-color:  black;
+    color:  var(--col1);
+    box-shadow: 0 0 10px 5px rgba(180, 114, 8, 0.75);
+}
