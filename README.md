@@ -11,7 +11,8 @@
 ## Food Intake
 ![Screenshot 2024-05-10 154032](https://github.com/Sahil7958/Fitness_Frontend/assets/113251909/6acc17a8-acf2-48fb-8f5c-cab11d8252a6)
 ## Visualization of data
-![Screenshot 2024-05-10 154032](https://github.com/Sahil7958/Fitness_Frontend/assets/113251909/258a452f-2dd1-4cc5-b956-28002f0a2130)
+![Screenshot 2024-05-10 154354](https://github.com/Sahil7958/Fitness_Frontend/assets/113251909/068f6a53-36db-4d23-9056-1f22eb818350)
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
