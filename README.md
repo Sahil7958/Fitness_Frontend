@@ -1,3 +1,10 @@
+![Screenshot 2024-05-07 204239](https://github.com/Sahil7958/Fitness_Frontend/assets/113251909/24dc66f6-0bd6-448e-9b55-a5973d912e1d)
+![Screenshot 2024-05-07 204342](https://github.com/Sahil7958/Fitness_Frontend/assets/113251909/39c42344-f263-4ecf-bcde-5823f6eab152)
+![Screenshot 2024-05-10 153318](https://github.com/Sahil7958/Fitness_Frontend/assets/113251909/e28904ea-542a-4450-aaf9-d7cbdafd1e0f)
+![Screenshot 2024-05-10 153508](https://github.com/Sahil7958/Fitness_Frontend/assets/113251909/fb048b22-559f-4f85-9088-9b59be6d736c)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
